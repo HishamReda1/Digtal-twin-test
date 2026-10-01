@@ -1,0 +1,440 @@
+PointKey,Level,Equipment,Card,PointName,BindName,Type,Access,Unit,Range,Value1,Value0,Value2,EboPath
+PT_0001,B1,P-01,ETS_PUMPS,P-01 Start/Stop,P-01_SS,digital,Controllable,,0-1,Run,Stop,,/Server 1/B1/ETS/P-01/SS
+PT_0002,B1,P-01,ETS_PUMPS,P-01 Run Status,P-01_STS,digital,Monitor,,0-1,Running,Stopped,,/Server 1/B1/ETS/P-01/STS
+PT_0003,B1,P-01,ETS_PUMPS,P-01 Trip Alarm,P-01_TRIP,digital,Monitor,,0-1,Trip Alarm,Normal,,/Server 1/B1/ETS/P-01/TRIP
+PT_0004,B1,P-01,ETS_PUMPS,P-01 VSD Frequency,P-01_SPEED,analog,Controllable,Hz,0-50,,,,/Server 1/B1/ETS/P-01/SPEED
+PT_0005,B1,P-01,ETS_PUMPS,P-01 Power kW,P-01_KW,analog,Monitor,kW,0-45,,,,/Server 1/B1/ETS/P-01/KW
+PT_0006,B1,P-01,ETS_PUMPS,P-01 Running Hours,P-01_HRS,analog,Monitor,hrs,0-99999,,,,/Server 1/B1/ETS/P-01/HRS
+PT_0007,B1,P-02,ETS_PUMPS,P-02 Start/Stop,P-02_SS,digital,Controllable,,0-1,Run,Stop,,/Server 1/B1/ETS/P-02/SS
+PT_0008,B1,P-02,ETS_PUMPS,P-02 Run Status,P-02_STS,digital,Monitor,,0-1,Running,Stopped,,/Server 1/B1/ETS/P-02/STS
+PT_0009,B1,P-02,ETS_PUMPS,P-02 Trip Alarm,P-02_TRIP,digital,Monitor,,0-1,Trip Alarm,Normal,,/Server 1/B1/ETS/P-02/TRIP
+PT_0010,B1,P-02,ETS_PUMPS,P-02 VSD Frequency,P-02_SPEED,analog,Controllable,Hz,0-50,,,,/Server 1/B1/ETS/P-02/SPEED
+PT_0011,B1,P-02,ETS_PUMPS,P-02 Power kW,P-02_KW,analog,Monitor,kW,0-45,,,,/Server 1/B1/ETS/P-02/KW
+PT_0012,B1,P-02,ETS_PUMPS,P-02 Running Hours,P-02_HRS,analog,Monitor,hrs,0-99999,,,,/Server 1/B1/ETS/P-02/HRS
+PT_0013,B1,P-03,ETS_PUMPS,P-03 Start/Stop,P-03_SS,digital,Controllable,,0-1,Run,Stop,,/Server 1/B1/ETS/P-03/SS
+PT_0014,B1,P-03,ETS_PUMPS,P-03 Run Status,P-03_STS,digital,Monitor,,0-1,Running,Stopped,,/Server 1/B1/ETS/P-03/STS
+PT_0015,B1,P-03,ETS_PUMPS,P-03 Trip Alarm,P-03_TRIP,digital,Monitor,,0-1,Trip Alarm,Normal,,/Server 1/B1/ETS/P-03/TRIP
+PT_0016,B1,P-03,ETS_PUMPS,P-03 VSD Frequency,P-03_SPEED,analog,Controllable,Hz,0-50,,,,/Server 1/B1/ETS/P-03/SPEED
+PT_0017,B1,P-03,ETS_PUMPS,P-03 Power kW,P-03_KW,analog,Monitor,kW,0-45,,,,/Server 1/B1/ETS/P-03/KW
+PT_0018,B1,P-03,ETS_PUMPS,P-03 Running Hours,P-03_HRS,analog,Monitor,hrs,0-99999,,,,/Server 1/B1/ETS/P-03/HRS
+PT_0019,B1,HEX-01,ETS_HEX,HEX-01 Primary Supply Temp,HEX-01_PRI_SUP_T,analog,Monitor,°C,0-30,,,,/Server 1/B1/ETS/HEX-01/PRI_SUP_T
+PT_0020,B1,HEX-01,ETS_HEX,HEX-01 Primary Return Temp,HEX-01_PRI_RET_T,analog,Monitor,°C,0-30,,,,/Server 1/B1/ETS/HEX-01/PRI_RET_T
+PT_0021,B1,HEX-01,ETS_HEX,HEX-01 Secondary Supply Temp,HEX-01_SEC_SUP_T,analog,Monitor,°C,0-30,,,,/Server 1/B1/ETS/HEX-01/SEC_SUP_T
+PT_0022,B1,HEX-01,ETS_HEX,HEX-01 Secondary Return Temp,HEX-01_SEC_RET_T,analog,Monitor,°C,0-30,,,,/Server 1/B1/ETS/HEX-01/SEC_RET_T
+PT_0023,B1,HEX-01,ETS_HEX,HEX-01 Primary Flow Rate,HEX-01_PRI_FLOW,analog,Monitor,m3/h,0-150,,,,/Server 1/B1/ETS/HEX-01/PRI_FLOW
+PT_0024,B1,HEX-01,ETS_HEX,HEX-01 Secondary DP,HEX-01_SEC_DP,analog,Monitor,bar,0-6,,,,/Server 1/B1/ETS/HEX-01/SEC_DP
+PT_0025,B1,HEX-01,ETS_HEX,HEX-01 Control Valve Pos,HEX-01_VALVE_POS,analog,Controllable,%,0-100,,,,/Server 1/B1/ETS/HEX-01/VALVE_POS
+PT_0026,B1,HEX-01,ETS_HEX,HEX-01 Thermal Energy Rate,HEX-01_TR,analog,Monitor,TR,0-1000,,,,/Server 1/B1/ETS/HEX-01/TR
+PT_0027,B1,HEX-02,ETS_HEX,HEX-02 Primary Supply Temp,HEX-02_PRI_SUP_T,analog,Monitor,°C,0-30,,,,/Server 1/B1/ETS/HEX-02/PRI_SUP_T
+PT_0028,B1,HEX-02,ETS_HEX,HEX-02 Primary Return Temp,HEX-02_PRI_RET_T,analog,Monitor,°C,0-30,,,,/Server 1/B1/ETS/HEX-02/PRI_RET_T
+PT_0029,B1,HEX-02,ETS_HEX,HEX-02 Secondary Supply Temp,HEX-02_SEC_SUP_T,analog,Monitor,°C,0-30,,,,/Server 1/B1/ETS/HEX-02/SEC_SUP_T
+PT_0030,B1,HEX-02,ETS_HEX,HEX-02 Secondary Return Temp,HEX-02_SEC_RET_T,analog,Monitor,°C,0-30,,,,/Server 1/B1/ETS/HEX-02/SEC_RET_T
+PT_0031,B1,HEX-02,ETS_HEX,HEX-02 Primary Flow Rate,HEX-02_PRI_FLOW,analog,Monitor,m3/h,0-150,,,,/Server 1/B1/ETS/HEX-02/PRI_FLOW
+PT_0032,B1,HEX-02,ETS_HEX,HEX-02 Secondary DP,HEX-02_SEC_DP,analog,Monitor,bar,0-6,,,,/Server 1/B1/ETS/HEX-02/SEC_DP
+PT_0033,B1,HEX-02,ETS_HEX,HEX-02 Control Valve Pos,HEX-02_VALVE_POS,analog,Controllable,%,0-100,,,,/Server 1/B1/ETS/HEX-02/VALVE_POS
+PT_0034,B1,HEX-02,ETS_HEX,HEX-02 Thermal Energy Rate,HEX-02_TR,analog,Monitor,TR,0-1000,,,,/Server 1/B1/ETS/HEX-02/TR
+PT_0035,B1,BTU-B1-01,BTU_METERS,BTU-B1-01 Energy Total,BTU-B1-01_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/B1/Meters/BTU-B1-01/KWH
+PT_0036,B1,BTU-B1-01,BTU_METERS,BTU-B1-01 Instant Cooling,BTU-B1-01_TR,analog,Monitor,TR,0-600,,,,/Server 1/B1/Meters/BTU-B1-01/TR
+PT_0037,B1,BTU-B1-01,BTU_METERS,BTU-B1-01 Water Flow Rate,BTU-B1-01_FLOW,analog,Monitor,m3/h,0-100,,,,/Server 1/B1/Meters/BTU-B1-01/FLOW
+PT_0038,B1,BTU-B1-01,BTU_METERS,BTU-B1-01 Supply Water Temp,BTU-B1-01_TS,analog,Monitor,°C,0-30,,,,/Server 1/B1/Meters/BTU-B1-01/TS
+PT_0039,B1,BTU-B1-01,BTU_METERS,BTU-B1-01 Return Water Temp,BTU-B1-01_TR_T,analog,Monitor,°C,0-30,,,,/Server 1/B1/Meters/BTU-B1-01/TR_T
+PT_0040,B1,BTU-B1-02,BTU_METERS,BTU-B1-02 Energy Total,BTU-B1-02_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/B1/Meters/BTU-B1-02/KWH
+PT_0041,B1,BTU-B1-02,BTU_METERS,BTU-B1-02 Instant Cooling,BTU-B1-02_TR,analog,Monitor,TR,0-600,,,,/Server 1/B1/Meters/BTU-B1-02/TR
+PT_0042,B1,BTU-B1-02,BTU_METERS,BTU-B1-02 Water Flow Rate,BTU-B1-02_FLOW,analog,Monitor,m3/h,0-100,,,,/Server 1/B1/Meters/BTU-B1-02/FLOW
+PT_0043,B1,BTU-B1-02,BTU_METERS,BTU-B1-02 Supply Water Temp,BTU-B1-02_TS,analog,Monitor,°C,0-30,,,,/Server 1/B1/Meters/BTU-B1-02/TS
+PT_0044,B1,BTU-B1-02,BTU_METERS,BTU-B1-02 Return Water Temp,BTU-B1-02_TR_T,analog,Monitor,°C,0-30,,,,/Server 1/B1/Meters/BTU-B1-02/TR_T
+PT_0045,B1,FLOW-V1,ETS_HEX,Header Primary Flow V1,FLOW_V2,analog,Monitor,m3/h,0-200,,,,/Server 1/B1/ETS/FLOW_V1
+PT_0046,B1,DPM-B1-MCC,POWER_METERS,DPM-B1-MCC Active Power Total,DPM-B1-MCC_KW,analog,Monitor,KWh,0-500,,,,/Server 1/B1/Power/DPM-B1-MCC/KW
+PT_0047,B1,DPM-B1-MCC,POWER_METERS,DPM-B1-MCC Apparent Power Total,DPM-B1-MCC_KVA,analog,Monitor,Btu/s,0-600,,,,/Server 1/B1/Power/DPM-B1-MCC/KVA
+PT_0048,B1,DPM-B1-MCC,POWER_METERS,DPM-B1-MCC Active Energy Import,DPM-B1-MCC_KWH_TOT,analog,Monitor,kWh,0-9999999,,,,/Server 1/B1/Power/DPM-B1-MCC/KWH_TOT
+PT_0049,B1,DPM-B1-MCC,POWER_METERS,DPM-B1-MCC Voltage L-L Avg,DPM-B1-MCC_V,analog,Monitor,V,0-500,,,,/Server 1/B1/Power/DPM-B1-MCC/V
+PT_0050,B1,DPM-B1-MCC,POWER_METERS,DPM-B1-MCC Current Avg,DPM-B1-MCC_A,analog,Monitor,A,0-800,,,,/Server 1/B1/Power/DPM-B1-MCC/A
+PT_0051,B1,DPM-B1-MCC,POWER_METERS,DPM-B1-MCC Power Factor,DPM-B1-MCC_PF,analog,Monitor,,-1..1,,,,/Server 1/B1/Power/DPM-B1-MCC/PF
+PT_0052,B1,DPM-B1-CHWP,POWER_METERS,DPM-B1-CHWP Active Power Total,DPM-B1-CHWP_KW,analog,Monitor,KWh,0-500,,,,/Server 1/B1/Power/DPM-B1-CHWP/KW
+PT_0053,B1,DPM-B1-CHWP,POWER_METERS,DPM-B1-CHWP Apparent Power Total,DPM-B1-CHWP_KVA,analog,Monitor,Btu/s,0-600,,,,/Server 1/B1/Power/DPM-B1-CHWP/KVA
+PT_0054,B1,DPM-B1-CHWP,POWER_METERS,DPM-B1-CHWP Active Energy Import,DPM-B1-CHWP_KWH_TOT,analog,Monitor,kWh,0-9999999,,,,/Server 1/B1/Power/DPM-B1-CHWP/KWH_TOT
+PT_0055,B1,DPM-B1-CHWP,POWER_METERS,DPM-B1-CHWP Voltage L-L Avg,DPM-B1-CHWP_V,analog,Monitor,V,0-500,,,,/Server 1/B1/Power/DPM-B1-CHWP/V
+PT_0056,B1,DPM-B1-CHWP,POWER_METERS,DPM-B1-CHWP Current Avg,DPM-B1-CHWP_A,analog,Monitor,A,0-800,,,,/Server 1/B1/Power/DPM-B1-CHWP/A
+PT_0057,B1,DPM-B1-CHWP,POWER_METERS,DPM-B1-CHWP Power Factor,DPM-B1-CHWP_PF,analog,Monitor,,-1..1,,,,/Server 1/B1/Power/DPM-B1-CHWP/PF
+PT_0058,B1,DPM-B1-LGT,POWER_METERS,DPM-B1-LGT Active Power Total,DPM-B1-LGT_KW,analog,Monitor,KWh,0-500,,,,/Server 1/B1/Power/DPM-B1-LGT/KW
+PT_0059,B1,DPM-B1-LGT,POWER_METERS,DPM-B1-LGT Apparent Power Total,DPM-B1-LGT_KVA,analog,Monitor,Btu/s,0-600,,,,/Server 1/B1/Power/DPM-B1-LGT/KVA
+PT_0060,B1,DPM-B1-LGT,POWER_METERS,DPM-B1-LGT Active Energy Import,DPM-B1-LGT_KWH_TOT,analog,Monitor,kWh,0-9999999,,,,/Server 1/B1/Power/DPM-B1-LGT/KWH_TOT
+PT_0061,B1,DPM-B1-LGT,POWER_METERS,DPM-B1-LGT Voltage L-L Avg,DPM-B1-LGT_V,analog,Monitor,V,0-500,,,,/Server 1/B1/Power/DPM-B1-LGT/V
+PT_0062,B1,DPM-B1-LGT,POWER_METERS,DPM-B1-LGT Current Avg,DPM-B1-LGT_A,analog,Monitor,A,0-800,,,,/Server 1/B1/Power/DPM-B1-LGT/A
+PT_0063,B1,DPM-B1-LGT,POWER_METERS,DPM-B1-LGT Power Factor,DPM-B1-LGT_PF,analog,Monitor,,-1..1,,,,/Server 1/B1/Power/DPM-B1-LGT/PF
+PT_0064,GF,KWH-GF-01,KWH_METERS,KWH-GF-01 Active Power Total,KWH-GF-01_KW,analog,Monitor,KWh,0-200,,,,/Server 1/GF/Power/KWH-GF-01/KW
+PT_0065,GF,KWH-GF-01,KWH_METERS,KWH-GF-01 Active Energy Total,KWH-GF-01_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/Power/KWH-GF-01/KWH
+PT_0066,GF,KWH-GF-01,KWH_METERS,KWH-GF-01 Line Voltage,KWH-GF-01_V,analog,Monitor,V,0-450,,,,/Server 1/GF/Power/KWH-GF-01/V
+PT_0067,GF,KWH-GF-01,KWH_METERS,KWH-GF-01 Current Amps,KWH-GF-01_A,analog,Monitor,A,0-300,,,,/Server 1/GF/Power/KWH-GF-01/A
+PT_0068,GF,KWH-GF-02,KWH_METERS,KWH-GF-02 Active Power Total,KWH-GF-02_KW,analog,Monitor,KWh,0-200,,,,/Server 1/GF/Power/KWH-GF-02/KW
+PT_0069,GF,KWH-GF-02,KWH_METERS,KWH-GF-02 Active Energy Total,KWH-GF-02_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/Power/KWH-GF-02/KWH
+PT_0070,GF,KWH-GF-02,KWH_METERS,KWH-GF-02 Line Voltage,KWH-GF-02_V,analog,Monitor,V,0-450,,,,/Server 1/GF/Power/KWH-GF-02/V
+PT_0071,GF,KWH-GF-02,KWH_METERS,KWH-GF-02 Current Amps,KWH-GF-02_A,analog,Monitor,A,0-300,,,,/Server 1/GF/Power/KWH-GF-02/A
+PT_0072,GF,KWH-GF-03,KWH_METERS,KWH-GF-03 Active Power Total,KWH-GF-03_KW,analog,Monitor,KWh,0-200,,,,/Server 1/GF/Power/KWH-GF-03/KW
+PT_0073,GF,KWH-GF-03,KWH_METERS,KWH-GF-03 Active Energy Total,KWH-GF-03_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/Power/KWH-GF-03/KWH
+PT_0074,GF,KWH-GF-03,KWH_METERS,KWH-GF-03 Line Voltage,KWH-GF-03_V,analog,Monitor,V,0-450,,,,/Server 1/GF/Power/KWH-GF-03/V
+PT_0075,GF,KWH-GF-03,KWH_METERS,KWH-GF-03 Current Amps,KWH-GF-03_A,analog,Monitor,A,0-300,,,,/Server 1/GF/Power/KWH-GF-03/A
+PT_0076,GF,KWH-GF-04,KWH_METERS,KWH-GF-04 Active Power Total,KWH-GF-04_KW,analog,Monitor,KWh,0-200,,,,/Server 1/GF/Power/KWH-GF-04/KW
+PT_0077,GF,KWH-GF-04,KWH_METERS,KWH-GF-04 Active Energy Total,KWH-GF-04_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/Power/KWH-GF-04/KWH
+PT_0078,GF,KWH-GF-04,KWH_METERS,KWH-GF-04 Line Voltage,KWH-GF-04_V,analog,Monitor,V,0-450,,,,/Server 1/GF/Power/KWH-GF-04/V
+PT_0079,GF,KWH-GF-04,KWH_METERS,KWH-GF-04 Current Amps,KWH-GF-04_A,analog,Monitor,A,0-300,,,,/Server 1/GF/Power/KWH-GF-04/A
+PT_0080,GF,KWH-GF-05,KWH_METERS,KWH-GF-05 Active Power Total,KWH-GF-05_KW,analog,Monitor,KWh,0-200,,,,/Server 1/GF/Power/KWH-GF-05/KW
+PT_0081,GF,KWH-GF-05,KWH_METERS,KWH-GF-05 Active Energy Total,KWH-GF-05_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/Power/KWH-GF-05/KWH
+PT_0082,GF,KWH-GF-05,KWH_METERS,KWH-GF-05 Line Voltage,KWH-GF-05_V,analog,Monitor,V,0-450,,,,/Server 1/GF/Power/KWH-GF-05/V
+PT_0083,GF,KWH-GF-05,KWH_METERS,KWH-GF-05 Current Amps,KWH-GF-05_A,analog,Monitor,A,0-300,,,,/Server 1/GF/Power/KWH-GF-05/A
+PT_0084,GF,KWH-GF-06,KWH_METERS,KWH-GF-06 Active Power Total,KWH-GF-06_KW,analog,Monitor,KWh,0-200,,,,/Server 1/GF/Power/KWH-GF-06/KW
+PT_0085,GF,KWH-GF-06,KWH_METERS,KWH-GF-06 Active Energy Total,KWH-GF-06_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/Power/KWH-GF-06/KWH
+PT_0086,GF,KWH-GF-06,KWH_METERS,KWH-GF-06 Line Voltage,KWH-GF-06_V,analog,Monitor,V,0-450,,,,/Server 1/GF/Power/KWH-GF-06/V
+PT_0087,GF,KWH-GF-06,KWH_METERS,KWH-GF-06 Current Amps,KWH-GF-06_A,analog,Monitor,A,0-300,,,,/Server 1/GF/Power/KWH-GF-06/A
+PT_0088,GF,KWH-GF-07,KWH_METERS,KWH-GF-07 Active Power Total,KWH-GF-07_KW,analog,Monitor,KWh,0-200,,,,/Server 1/GF/Power/KWH-GF-07/KW
+PT_0089,GF,KWH-GF-07,KWH_METERS,KWH-GF-07 Active Energy Total,KWH-GF-07_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/Power/KWH-GF-07/KWH
+PT_0090,GF,KWH-GF-07,KWH_METERS,KWH-GF-07 Line Voltage,KWH-GF-07_V,analog,Monitor,V,0-450,,,,/Server 1/GF/Power/KWH-GF-07/V
+PT_0091,GF,KWH-GF-07,KWH_METERS,KWH-GF-07 Current Amps,KWH-GF-07_A,analog,Monitor,A,0-300,,,,/Server 1/GF/Power/KWH-GF-07/A
+PT_0092,GF,KWH-GF-08,KWH_METERS,KWH-GF-08 Active Power Total,KWH-GF-08_KW,analog,Monitor,KWh,0-200,,,,/Server 1/GF/Power/KWH-GF-08/KW
+PT_0093,GF,KWH-GF-08,KWH_METERS,KWH-GF-08 Active Energy Total,KWH-GF-08_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/Power/KWH-GF-08/KWH
+PT_0094,GF,KWH-GF-08,KWH_METERS,KWH-GF-08 Line Voltage,KWH-GF-08_V,analog,Monitor,V,0-450,,,,/Server 1/GF/Power/KWH-GF-08/V
+PT_0095,GF,KWH-GF-08,KWH_METERS,KWH-GF-08 Current Amps,KWH-GF-08_A,analog,Monitor,A,0-300,,,,/Server 1/GF/Power/KWH-GF-08/A
+PT_0096,GF,KWH-GF-09,KWH_METERS,KWH-GF-09 Active Power Total,KWH-GF-09_KW,analog,Monitor,KWh,0-200,,,,/Server 1/GF/Power/KWH-GF-09/KW
+PT_0097,GF,KWH-GF-09,KWH_METERS,KWH-GF-09 Active Energy Total,KWH-GF-09_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/Power/KWH-GF-09/KWH
+PT_0098,GF,KWH-GF-09,KWH_METERS,KWH-GF-09 Line Voltage,KWH-GF-09_V,analog,Monitor,V,0-450,,,,/Server 1/GF/Power/KWH-GF-09/V
+PT_0099,GF,KWH-GF-09,KWH_METERS,KWH-GF-09 Current Amps,KWH-GF-09_A,analog,Monitor,A,0-300,,,,/Server 1/GF/Power/KWH-GF-09/A
+PT_0100,GF,KWH-GF-10,KWH_METERS,KWH-GF-10 Active Power Total,KWH-GF-10_KW,analog,Monitor,KWh,0-200,,,,/Server 1/GF/Power/KWH-GF-10/KW
+PT_0101,GF,KWH-GF-10,KWH_METERS,KWH-GF-10 Active Energy Total,KWH-GF-10_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/Power/KWH-GF-10/KWH
+PT_0102,GF,KWH-GF-10,KWH_METERS,KWH-GF-10 Line Voltage,KWH-GF-10_V,analog,Monitor,V,0-450,,,,/Server 1/GF/Power/KWH-GF-10/V
+PT_0103,GF,KWH-GF-10,KWH_METERS,KWH-GF-10 Current Amps,KWH-GF-10_A,analog,Monitor,A,0-300,,,,/Server 1/GF/Power/KWH-GF-10/A
+PT_0104,GF,KWH-GF-11,KWH_METERS,KWH-GF-11 Active Power Total,KWH-GF-11_KW,analog,Monitor,KWh,0-200,,,,/Server 1/GF/Power/KWH-GF-11/KW
+PT_0105,GF,KWH-GF-11,KWH_METERS,KWH-GF-11 Active Energy Total,KWH-GF-11_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/Power/KWH-GF-11/KWH
+PT_0106,GF,KWH-GF-11,KWH_METERS,KWH-GF-11 Line Voltage,KWH-GF-11_V,analog,Monitor,V,0-450,,,,/Server 1/GF/Power/KWH-GF-11/V
+PT_0107,GF,KWH-GF-11,KWH_METERS,KWH-GF-11 Current Amps,KWH-GF-11_A,analog,Monitor,A,0-300,,,,/Server 1/GF/Power/KWH-GF-11/A
+PT_0108,GF,KWH-GF-12,KWH_METERS,KWH-GF-12 Active Power Total,KWH-GF-12_KW,analog,Monitor,KWh,0-200,,,,/Server 1/GF/Power/KWH-GF-12/KW
+PT_0109,GF,KWH-GF-12,KWH_METERS,KWH-GF-12 Active Energy Total,KWH-GF-12_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/Power/KWH-GF-12/KWH
+PT_0110,GF,KWH-GF-12,KWH_METERS,KWH-GF-12 Line Voltage,KWH-GF-12_V,analog,Monitor,V,0-450,,,,/Server 1/GF/Power/KWH-GF-12/V
+PT_0111,GF,KWH-GF-12,KWH_METERS,KWH-GF-12 Current Amps,KWH-GF-12_A,analog,Monitor,A,0-300,,,,/Server 1/GF/Power/KWH-GF-12/A
+PT_0112,GF,KWH-GF-13,KWH_METERS,KWH-GF-13 Active Power Total,KWH-GF-13_KW,analog,Monitor,KWh,0-200,,,,/Server 1/GF/Power/KWH-GF-13/KW
+PT_0113,GF,KWH-GF-13,KWH_METERS,KWH-GF-13 Active Energy Total,KWH-GF-13_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/Power/KWH-GF-13/KWH
+PT_0114,GF,KWH-GF-13,KWH_METERS,KWH-GF-13 Line Voltage,KWH-GF-13_V,analog,Monitor,V,0-450,,,,/Server 1/GF/Power/KWH-GF-13/V
+PT_0115,GF,KWH-GF-13,KWH_METERS,KWH-GF-13 Current Amps,KWH-GF-13_A,analog,Monitor,A,0-300,,,,/Server 1/GF/Power/KWH-GF-13/A
+PT_0116,GF,WM-GF-01,WATER_METERS,WM-GF-01 Flow Rate,WM-GF-01_FLOW,analog,Monitor,m3/h,0-25,,,,/Server 1/GF/Water/WM-GF-01/FLOW
+PT_0117,GF,WM-GF-01,WATER_METERS,WM-GF-01 Total Pulse Volume,WM-GF-01_VOL,analog,Monitor,m3,0-999999,,,,/Server 1/GF/Water/WM-GF-01/VOL
+PT_0118,GF,WM-GF-01,WATER_METERS,WM-GF-01 Meter Tamper Alarm,WM-GF-01_ALM,digital,Monitor,,0-1,Tamper Alarm,Normal,,/Server 1/GF/Water/WM-GF-01/ALM
+PT_0119,GF,WM-GF-02,WATER_METERS,WM-GF-02 Flow Rate,WM-GF-02_FLOW,analog,Monitor,m3/h,0-25,,,,/Server 1/GF/Water/WM-GF-02/FLOW
+PT_0120,GF,WM-GF-02,WATER_METERS,WM-GF-02 Total Pulse Volume,WM-GF-02_VOL,analog,Monitor,m3,0-999999,,,,/Server 1/GF/Water/WM-GF-02/VOL
+PT_0121,GF,WM-GF-02,WATER_METERS,WM-GF-02 Meter Tamper Alarm,WM-GF-02_ALM,digital,Monitor,,0-1,Tamper Alarm,Normal,,/Server 1/GF/Water/WM-GF-02/ALM
+PT_0122,GF,WM-GF-03,WATER_METERS,WM-GF-03 Flow Rate,WM-GF-03_FLOW,analog,Monitor,m3/h,0-25,,,,/Server 1/GF/Water/WM-GF-03/FLOW
+PT_0123,GF,WM-GF-03,WATER_METERS,WM-GF-03 Total Pulse Volume,WM-GF-03_VOL,analog,Monitor,m3,0-999999,,,,/Server 1/GF/Water/WM-GF-03/VOL
+PT_0124,GF,WM-GF-03,WATER_METERS,WM-GF-03 Meter Tamper Alarm,WM-GF-03_ALM,digital,Monitor,,0-1,Tamper Alarm,Normal,,/Server 1/GF/Water/WM-GF-03/ALM
+PT_0125,GF,WM-GF-04,WATER_METERS,WM-GF-04 Flow Rate,WM-GF-04_FLOW,analog,Monitor,m3/h,0-25,,,,/Server 1/GF/Water/WM-GF-04/FLOW
+PT_0126,GF,WM-GF-04,WATER_METERS,WM-GF-04 Total Pulse Volume,WM-GF-04_VOL,analog,Monitor,m3,0-999999,,,,/Server 1/GF/Water/WM-GF-04/VOL
+PT_0127,GF,WM-GF-04,WATER_METERS,WM-GF-04 Meter Tamper Alarm,WM-GF-04_ALM,digital,Monitor,,0-1,Tamper Alarm,Normal,,/Server 1/GF/Water/WM-GF-04/ALM
+PT_0128,GF,WM-GF-05,WATER_METERS,WM-GF-05 Flow Rate,WM-GF-05_FLOW,analog,Monitor,m3/h,0-25,,,,/Server 1/GF/Water/WM-GF-05/FLOW
+PT_0129,GF,WM-GF-05,WATER_METERS,WM-GF-05 Total Pulse Volume,WM-GF-05_VOL,analog,Monitor,m3,0-999999,,,,/Server 1/GF/Water/WM-GF-05/VOL
+PT_0130,GF,WM-GF-05,WATER_METERS,WM-GF-05 Meter Tamper Alarm,WM-GF-05_ALM,digital,Monitor,,0-1,Tamper Alarm,Normal,,/Server 1/GF/Water/WM-GF-05/ALM
+PT_0131,GF,WM-GF-06,WATER_METERS,WM-GF-06 Flow Rate,WM-GF-06_FLOW,analog,Monitor,m3/h,0-25,,,,/Server 1/GF/Water/WM-GF-06/FLOW
+PT_0132,GF,WM-GF-06,WATER_METERS,WM-GF-06 Total Pulse Volume,WM-GF-06_VOL,analog,Monitor,m3,0-999999,,,,/Server 1/GF/Water/WM-GF-06/VOL
+PT_0133,GF,WM-GF-06,WATER_METERS,WM-GF-06 Meter Tamper Alarm,WM-GF-06_ALM,digital,Monitor,,0-1,Tamper Alarm,Normal,,/Server 1/GF/Water/WM-GF-06/ALM
+PT_0134,GF,WM-GF-07,WATER_METERS,WM-GF-07 Flow Rate,WM-GF-07_FLOW,analog,Monitor,m3/h,0-25,,,,/Server 1/GF/Water/WM-GF-07/FLOW
+PT_0135,GF,WM-GF-07,WATER_METERS,WM-GF-07 Total Pulse Volume,WM-GF-07_VOL,analog,Monitor,m3,0-999999,,,,/Server 1/GF/Water/WM-GF-07/VOL
+PT_0136,GF,WM-GF-07,WATER_METERS,WM-GF-07 Meter Tamper Alarm,WM-GF-07_ALM,digital,Monitor,,0-1,Tamper Alarm,Normal,,/Server 1/GF/Water/WM-GF-07/ALM
+PT_0137,GF,WM-GF-08,WATER_METERS,WM-GF-08 Flow Rate,WM-GF-08_FLOW,analog,Monitor,m3/h,0-25,,,,/Server 1/GF/Water/WM-GF-08/FLOW
+PT_0138,GF,WM-GF-08,WATER_METERS,WM-GF-08 Total Pulse Volume,WM-GF-08_VOL,analog,Monitor,m3,0-999999,,,,/Server 1/GF/Water/WM-GF-08/VOL
+PT_0139,GF,WM-GF-08,WATER_METERS,WM-GF-08 Meter Tamper Alarm,WM-GF-08_ALM,digital,Monitor,,0-1,Tamper Alarm,Normal,,/Server 1/GF/Water/WM-GF-08/ALM
+PT_0140,GF,WM-GF-09,WATER_METERS,WM-GF-09 Flow Rate,WM-GF-09_FLOW,analog,Monitor,m3/h,0-25,,,,/Server 1/GF/Water/WM-GF-09/FLOW
+PT_0141,GF,WM-GF-09,WATER_METERS,WM-GF-09 Total Pulse Volume,WM-GF-09_VOL,analog,Monitor,m3,0-999999,,,,/Server 1/GF/Water/WM-GF-09/VOL
+PT_0142,GF,WM-GF-09,WATER_METERS,WM-GF-09 Meter Tamper Alarm,WM-GF-09_ALM,digital,Monitor,,0-1,Tamper Alarm,Normal,,/Server 1/GF/Water/WM-GF-09/ALM
+PT_0143,GF,WM-GF-10,WATER_METERS,WM-GF-10 Flow Rate,WM-GF-10_FLOW,analog,Monitor,m3/h,0-25,,,,/Server 1/GF/Water/WM-GF-10/FLOW
+PT_0144,GF,WM-GF-10,WATER_METERS,WM-GF-10 Total Pulse Volume,WM-GF-10_VOL,analog,Monitor,m3,0-999999,,,,/Server 1/GF/Water/WM-GF-10/VOL
+PT_0145,GF,WM-GF-10,WATER_METERS,WM-GF-10 Meter Tamper Alarm,WM-GF-10_ALM,digital,Monitor,,0-1,Tamper Alarm,Normal,,/Server 1/GF/Water/WM-GF-10/ALM
+PT_0146,GF,WM-GF-11,WATER_METERS,WM-GF-11 Flow Rate,WM-GF-11_FLOW,analog,Monitor,m3/h,0-25,,,,/Server 1/GF/Water/WM-GF-11/FLOW
+PT_0147,GF,WM-GF-11,WATER_METERS,WM-GF-11 Total Pulse Volume,WM-GF-11_VOL,analog,Monitor,m3,0-999999,,,,/Server 1/GF/Water/WM-GF-11/VOL
+PT_0148,GF,WM-GF-11,WATER_METERS,WM-GF-11 Meter Tamper Alarm,WM-GF-11_ALM,digital,Monitor,,0-1,Tamper Alarm,Normal,,/Server 1/GF/Water/WM-GF-11/ALM
+PT_0149,GF,WM-GF-12,WATER_METERS,WM-GF-12 Flow Rate,WM-GF-12_FLOW,analog,Monitor,m3/h,0-25,,,,/Server 1/GF/Water/WM-GF-12/FLOW
+PT_0150,GF,WM-GF-12,WATER_METERS,WM-GF-12 Total Pulse Volume,WM-GF-12_VOL,analog,Monitor,m3,0-999999,,,,/Server 1/GF/Water/WM-GF-12/VOL
+PT_0151,GF,WM-GF-12,WATER_METERS,WM-GF-12 Meter Tamper Alarm,WM-GF-12_ALM,digital,Monitor,,0-1,Tamper Alarm,Normal,,/Server 1/GF/Water/WM-GF-12/ALM
+PT_0152,GF,WM-GF-13,WATER_METERS,WM-GF-13 Flow Rate,WM-GF-13_FLOW,analog,Monitor,m3/h,0-25,,,,/Server 1/GF/Water/WM-GF-13/FLOW
+PT_0153,GF,WM-GF-13,WATER_METERS,WM-GF-13 Total Pulse Volume,WM-GF-13_VOL,analog,Monitor,m3,0-999999,,,,/Server 1/GF/Water/WM-GF-13/VOL
+PT_0154,GF,WM-GF-13,WATER_METERS,WM-GF-13 Meter Tamper Alarm,WM-GF-13_ALM,digital,Monitor,,0-1,Tamper Alarm,Normal,,/Server 1/GF/Water/WM-GF-13/ALM
+PT_0155,GF,BTU-GF-01,BTU_METERS,BTU-GF-01 Cooling Power,BTU-GF-01_TR,analog,Monitor,TR,0-50,,,,/Server 1/GF/BTU/BTU-GF-01/TR
+PT_0156,GF,BTU-GF-01,BTU_METERS,BTU-GF-01 Supply Temp,BTU-GF-01_TS,analog,Monitor,°C,0-30,,,,/Server 1/GF/BTU/BTU-GF-01/TS
+PT_0157,GF,BTU-GF-01,BTU_METERS,BTU-GF-01 Return Temp,BTU-GF-01_TR,analog,Monitor,°C,0-30,,,,/Server 1/GF/BTU/BTU-GF-01/TR
+PT_0158,GF,BTU-GF-01,BTU_METERS,BTU-GF-01 Energy Accumulator,BTU-GF-01_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/BTU/BTU-GF-01/KWH
+PT_0159,GF,BTU-GF-02,BTU_METERS,BTU-GF-02 Cooling Power,BTU-GF-02_TR,analog,Monitor,TR,0-50,,,,/Server 1/GF/BTU/BTU-GF-02/TR
+PT_0160,GF,BTU-GF-02,BTU_METERS,BTU-GF-02 Supply Temp,BTU-GF-02_TS,analog,Monitor,°C,0-30,,,,/Server 1/GF/BTU/BTU-GF-02/TS
+PT_0161,GF,BTU-GF-02,BTU_METERS,BTU-GF-02 Return Temp,BTU-GF-02_TR,analog,Monitor,°C,0-30,,,,/Server 1/GF/BTU/BTU-GF-02/TR
+PT_0162,GF,BTU-GF-02,BTU_METERS,BTU-GF-02 Energy Accumulator,BTU-GF-02_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/BTU/BTU-GF-02/KWH
+PT_0163,GF,BTU-GF-03,BTU_METERS,BTU-GF-03 Cooling Power,BTU-GF-03_TR,analog,Monitor,TR,0-50,,,,/Server 1/GF/BTU/BTU-GF-03/TR
+PT_0164,GF,BTU-GF-03,BTU_METERS,BTU-GF-03 Supply Temp,BTU-GF-03_TS,analog,Monitor,°C,0-30,,,,/Server 1/GF/BTU/BTU-GF-03/TS
+PT_0165,GF,BTU-GF-03,BTU_METERS,BTU-GF-03 Return Temp,BTU-GF-03_TR,analog,Monitor,°C,0-30,,,,/Server 1/GF/BTU/BTU-GF-03/TR
+PT_0166,GF,BTU-GF-03,BTU_METERS,BTU-GF-03 Energy Accumulator,BTU-GF-03_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/BTU/BTU-GF-03/KWH
+PT_0167,GF,BTU-GF-04,BTU_METERS,BTU-GF-04 Cooling Power,BTU-GF-04_TR,analog,Monitor,TR,0-50,,,,/Server 1/GF/BTU/BTU-GF-04/TR
+PT_0168,GF,BTU-GF-04,BTU_METERS,BTU-GF-04 Supply Temp,BTU-GF-04_TS,analog,Monitor,°C,0-30,,,,/Server 1/GF/BTU/BTU-GF-04/TS
+PT_0169,GF,BTU-GF-04,BTU_METERS,BTU-GF-04 Return Temp,BTU-GF-04_TR,analog,Monitor,°C,0-30,,,,/Server 1/GF/BTU/BTU-GF-04/TR
+PT_0170,GF,BTU-GF-04,BTU_METERS,BTU-GF-04 Energy Accumulator,BTU-GF-04_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/BTU/BTU-GF-04/KWH
+PT_0171,GF,BTU-GF-05,BTU_METERS,BTU-GF-05 Cooling Power,BTU-GF-05_TR,analog,Monitor,TR,0-50,,,,/Server 1/GF/BTU/BTU-GF-05/TR
+PT_0172,GF,BTU-GF-05,BTU_METERS,BTU-GF-05 Supply Temp,BTU-GF-05_TS,analog,Monitor,°C,0-30,,,,/Server 1/GF/BTU/BTU-GF-05/TS
+PT_0173,GF,BTU-GF-05,BTU_METERS,BTU-GF-05 Return Temp,BTU-GF-05_TR,analog,Monitor,°C,0-30,,,,/Server 1/GF/BTU/BTU-GF-05/TR
+PT_0174,GF,BTU-GF-05,BTU_METERS,BTU-GF-05 Energy Accumulator,BTU-GF-05_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/BTU/BTU-GF-05/KWH
+PT_0175,GF,BTU-GF-06,BTU_METERS,BTU-GF-06 Cooling Power,BTU-GF-06_TR,analog,Monitor,TR,0-50,,,,/Server 1/GF/BTU/BTU-GF-06/TR
+PT_0176,GF,BTU-GF-06,BTU_METERS,BTU-GF-06 Supply Temp,BTU-GF-06_TS,analog,Monitor,°C,0-30,,,,/Server 1/GF/BTU/BTU-GF-06/TS
+PT_0177,GF,BTU-GF-06,BTU_METERS,BTU-GF-06 Return Temp,BTU-GF-06_TR,analog,Monitor,°C,0-30,,,,/Server 1/GF/BTU/BTU-GF-06/TR
+PT_0178,GF,BTU-GF-06,BTU_METERS,BTU-GF-06 Energy Accumulator,BTU-GF-06_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/BTU/BTU-GF-06/KWH
+PT_0179,GF,BTU-GF-07,BTU_METERS,BTU-GF-07 Cooling Power,BTU-GF-07_TR,analog,Monitor,TR,0-50,,,,/Server 1/GF/BTU/BTU-GF-07/TR
+PT_0180,GF,BTU-GF-07,BTU_METERS,BTU-GF-07 Supply Temp,BTU-GF-07_TS,analog,Monitor,°C,0-30,,,,/Server 1/GF/BTU/BTU-GF-07/TS
+PT_0181,GF,BTU-GF-07,BTU_METERS,BTU-GF-07 Return Temp,BTU-GF-07_TR,analog,Monitor,°C,0-30,,,,/Server 1/GF/BTU/BTU-GF-07/TR
+PT_0182,GF,BTU-GF-07,BTU_METERS,BTU-GF-07 Energy Accumulator,BTU-GF-07_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/BTU/BTU-GF-07/KWH
+PT_0183,GF,BTU-GF-08,BTU_METERS,BTU-GF-08 Cooling Power,BTU-GF-08_TR,analog,Monitor,TR,0-50,,,,/Server 1/GF/BTU/BTU-GF-08/TR
+PT_0184,GF,BTU-GF-08,BTU_METERS,BTU-GF-08 Supply Temp,BTU-GF-08_TS,analog,Monitor,°C,0-30,,,,/Server 1/GF/BTU/BTU-GF-08/TS
+PT_0185,GF,BTU-GF-08,BTU_METERS,BTU-GF-08 Return Temp,BTU-GF-08_TR,analog,Monitor,°C,0-30,,,,/Server 1/GF/BTU/BTU-GF-08/TR
+PT_0186,GF,BTU-GF-08,BTU_METERS,BTU-GF-08 Energy Accumulator,BTU-GF-08_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/BTU/BTU-GF-08/KWH
+PT_0187,GF,BTU-GF-09,BTU_METERS,BTU-GF-09 Cooling Power,BTU-GF-09_TR,analog,Monitor,TR,0-50,,,,/Server 1/GF/BTU/BTU-GF-09/TR
+PT_0188,GF,BTU-GF-09,BTU_METERS,BTU-GF-09 Supply Temp,BTU-GF-09_TS,analog,Monitor,°C,0-30,,,,/Server 1/GF/BTU/BTU-GF-09/TS
+PT_0189,GF,BTU-GF-09,BTU_METERS,BTU-GF-09 Return Temp,BTU-GF-09_TR,analog,Monitor,°C,0-30,,,,/Server 1/GF/BTU/BTU-GF-09/TR
+PT_0190,GF,BTU-GF-09,BTU_METERS,BTU-GF-09 Energy Accumulator,BTU-GF-09_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/GF/BTU/BTU-GF-09/KWH
+PT_0191,GF,FCU-GF-01,FCU,FCU-GF-01 Run/Stop Command,FCU-GF-01_SS,digital,Controllable,,0-1,Start,Stop,,/Server 1/GF/FCU/FCU-GF-01/SS
+PT_0192,GF,FCU-GF-01,FCU,FCU-GF-01 Status,FCU-GF-01_STS,digital,Monitor,,0-1,Running,Stopped,,/Server 1/GF/FCU/FCU-GF-01/STS
+PT_0193,GF,FCU-GF-01,FCU,FCU-GF-01 Room Temp,FCU-GF-01_TEMP,analog,Monitor,°C,10-35,,,,/Server 1/GF/FCU/FCU-GF-01/TEMP
+PT_0194,GF,FCU-GF-01,FCU,FCU-GF-01 Temperature Setpoint,FCU-GF-01_SP,analog,Controllable,°C,18-28,,,,/Server 1/GF/FCU/FCU-GF-01/SP
+PT_0195,GF,FCU-GF-01,FCU,FCU-GF-01 Valve Output,FCU-GF-01_VALVE,analog,Monitor,V,0-10,,,,/Server 1/GF/FCU/FCU-GF-01/VALVE
+PT_0196,GF,FCU-GF-01,FCU,FCU-GF-01 Fan Speed Selected,FCU-GF-01_SPD,analog,Controllable,enum,1-3,,,,/Server 1/GF/FCU/FCU-GF-01/SPD
+PT_0197,GF,FCU-GF-01,FCU,FCU-GF-01 Filter Dirty DPS,FCU-GF-01_DPS,digital,Monitor,,0-1,Dirty Filter,Clean,,/Server 1/GF/FCU/FCU-GF-01/DPS
+PT_0198,GF,FCU-GF-02,FCU,FCU-GF-02 Run/Stop Command,FCU-GF-02_SS,digital,Controllable,,0-1,Start,Stop,,/Server 1/GF/FCU/FCU-GF-02/SS
+PT_0199,GF,FCU-GF-02,FCU,FCU-GF-02 Status,FCU-GF-02_STS,digital,Monitor,,0-1,Running,Stopped,,/Server 1/GF/FCU/FCU-GF-02/STS
+PT_0200,GF,FCU-GF-02,FCU,FCU-GF-02 Room Temp,FCU-GF-02_TEMP,analog,Monitor,°C,10-35,,,,/Server 1/GF/FCU/FCU-GF-02/TEMP
+PT_0201,GF,FCU-GF-02,FCU,FCU-GF-02 Temperature Setpoint,FCU-GF-02_SP,analog,Controllable,°C,18-28,,,,/Server 1/GF/FCU/FCU-GF-02/SP
+PT_0202,GF,FCU-GF-02,FCU,FCU-GF-02 Valve Output,FCU-GF-02_VALVE,analog,Monitor,V,0-10,,,,/Server 1/GF/FCU/FCU-GF-02/VALVE
+PT_0203,GF,FCU-GF-02,FCU,FCU-GF-02 Fan Speed Selected,FCU-GF-02_SPD,analog,Controllable,enum,1-3,,,,/Server 1/GF/FCU/FCU-GF-02/SPD
+PT_0204,GF,FCU-GF-02,FCU,FCU-GF-02 Filter Dirty DPS,FCU-GF-02_DPS,digital,Monitor,,0-1,Dirty Filter,Clean,,/Server 1/GF/FCU/FCU-GF-02/DPS
+PT_0205,GF,FCU-GF-03,FCU,FCU-GF-03 Run/Stop Command,FCU-GF-03_SS,digital,Controllable,,0-1,Start,Stop,,/Server 1/GF/FCU/FCU-GF-03/SS
+PT_0206,GF,FCU-GF-03,FCU,FCU-GF-03 Status,FCU-GF-03_STS,digital,Monitor,,0-1,Running,Stopped,,/Server 1/GF/FCU/FCU-GF-03/STS
+PT_0207,GF,FCU-GF-03,FCU,FCU-GF-03 Room Temp,FCU-GF-03_TEMP,analog,Monitor,°C,10-35,,,,/Server 1/GF/FCU/FCU-GF-03/TEMP
+PT_0208,GF,FCU-GF-03,FCU,FCU-GF-03 Temperature Setpoint,FCU-GF-03_SP,analog,Controllable,°C,18-28,,,,/Server 1/GF/FCU/FCU-GF-03/SP
+PT_0209,GF,FCU-GF-03,FCU,FCU-GF-03 Valve Output,FCU-GF-03_VALVE,analog,Monitor,V,0-10,,,,/Server 1/GF/FCU/FCU-GF-03/VALVE
+PT_0210,GF,FCU-GF-03,FCU,FCU-GF-03 Fan Speed Selected,FCU-GF-03_SPD,analog,Controllable,enum,1-3,,,,/Server 1/GF/FCU/FCU-GF-03/SPD
+PT_0211,GF,FCU-GF-03,FCU,FCU-GF-03 Filter Dirty DPS,FCU-GF-03_DPS,digital,Monitor,,0-1,Dirty Filter,Clean,,/Server 1/GF/FCU/FCU-GF-03/DPS
+PT_0212,GF,SMD-GF-01,DAMPERS,Smoke Damper 01 State,GF_SMD01_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/GF/Dampers/SMD01_STS
+PT_0213,GF,SMD-GF-02,DAMPERS,Smoke Damper 02 State,GF_SMD02_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/GF/Dampers/SMD02_STS
+PT_0214,GF,VMD-GF-01,DAMPERS,Volume Damper 01 Command,GF_VMD01_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/GF/Dampers/VMD01_SS
+PT_0215,GF,VMD-GF-01,DAMPERS,Volume Damper 01 Status,GF_VMD01_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/GF/Dampers/VMD01_STS
+PT_0216,GF,VMD-GF-02,DAMPERS,Volume Damper 02 Command,GF_VMD02_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/GF/Dampers/VMD02_SS
+PT_0217,GF,VMD-GF-02,DAMPERS,Volume Damper 02 Status,GF_VMD02_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/GF/Dampers/VMD02_STS
+PT_0218,GF,VMD-GF-03,DAMPERS,Volume Damper 03 Command,GF_VMD03_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/GF/Dampers/VMD03_SS
+PT_0219,GF,VMD-GF-03,DAMPERS,Volume Damper 03 Status,GF_VMD03_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/GF/Dampers/VMD03_STS
+PT_0220,GF,VMD-GF-04,DAMPERS,Volume Damper 04 Command,GF_VMD04_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/GF/Dampers/VMD04_SS
+PT_0221,GF,VMD-GF-04,DAMPERS,Volume Damper 04 Status,GF_VMD04_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/GF/Dampers/VMD04_STS
+PT_0222,GF,VMD-GF-05,DAMPERS,Volume Damper 05 Command,GF_VMD05_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/GF/Dampers/VMD05_SS
+PT_0223,GF,VMD-GF-05,DAMPERS,Volume Damper 05 Status,GF_VMD05_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/GF/Dampers/VMD05_STS
+PT_0224,GF,VMD-GF-06,DAMPERS,Volume Damper 06 Command,GF_VMD06_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/GF/Dampers/VMD06_SS
+PT_0225,GF,VMD-GF-06,DAMPERS,Volume Damper 06 Status,GF_VMD06_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/GF/Dampers/VMD06_STS
+PT_0226,GF,VMD-GF-07,DAMPERS,Volume Damper 07 Command,GF_VMD07_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/GF/Dampers/VMD07_SS
+PT_0227,GF,VMD-GF-07,DAMPERS,Volume Damper 07 Status,GF_VMD07_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/GF/Dampers/VMD07_STS
+PT_0228,GF,VMD-GF-08,DAMPERS,Volume Damper 08 Command,GF_VMD08_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/GF/Dampers/VMD08_SS
+PT_0229,GF,VMD-GF-08,DAMPERS,Volume Damper 08 Status,GF_VMD08_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/GF/Dampers/VMD08_STS
+PT_0230,GF,VMD-GF-09,DAMPERS,Volume Damper 09 Command,GF_VMD09_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/GF/Dampers/VMD09_SS
+PT_0231,GF,VMD-GF-09,DAMPERS,Volume Damper 09 Status,GF_VMD09_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/GF/Dampers/VMD09_STS
+PT_0232,GF,VMD-GF-10,DAMPERS,Volume Damper 10 Command,GF_VMD010_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/GF/Dampers/VMD10_SS
+PT_0233,GF,VMD-GF-10,DAMPERS,Volume Damper 10 Status,GF_VMD10_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/GF/Dampers/VMD10_STS
+PT_0234,GF,VMD-GF-11,DAMPERS,Volume Damper 11 Command,GF_VMD11_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/GF/Dampers/VMD11_SS
+PT_0235,GF,VMD-GF-11,DAMPERS,Volume Damper 11 Status,GF_VMD11_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/GF/Dampers/VMD11_STS
+PT_0236,GF,ELEVATOR-01,ELEVATORS,Elevator Car 1 Floor Pos,GF_ELEV1_POS,analog,Monitor,floor,0-6,,,,/Server 1/GF/Elev/ELEV1_POS
+PT_0237,GF,ELEVATOR-01,ELEVATORS,Elevator Car 1 Door State,GF_ELEV1_DOOR,digital,Monitor,,0-1,Door Open,Door Closed,,/Server 1/GF/Elev/ELEV1_DOOR
+PT_0238,GF,ELEVATOR-01,ELEVATORS,Elevator Car 1 Motion Dir,GF_ELEV1_DIR,analog,Monitor,dir,0-2,,,,/Server 1/GF/Elev/ELEV1_DIR
+PT_0239,GF,ELEVATOR-01,ELEVATORS,Elevator Car 1 Fire Alarm,GF_ELEV1_FIRE,digital,Monitor,,0-1,Fire Mode,Normal,,/Server 1/GF/Elev/ELEV1_FIRE
+PT_0240,GF,GF_FAP,LIFE_SAFETY,Fire Alarm Panel General Alarm,GF_FAP_ALM,digital,Monitor,,0-1,General Alarm,Normal,,/Server 1/GF/FAP/ALM
+PT_0241,GF,GF_FAP,LIFE_SAFETY,Fire Alarm Panel Fault,GF_FAP_FLT,digital,Monitor,,0-1,Fault Detected,Healthy,,/Server 1/GF/FAP/FLT
+PT_0242,GF,GF_TEST_DUP,DIAGNOSTICS,Diagnostic Duplicate Point Test,GF_FAP_ALM,digital,Monitor,,0-1,Alarm,Normal,,
+PT_0243,1F,BTU-1F-01,BTU_METERS,BTU-1F-01 Cooling Capacity,BTU-1F-01_TR,analog,Monitor,TR,0-40,,,,/Server 1/1F/BTU/BTU-1F-01/TR
+PT_0244,1F,BTU-1F-01,BTU_METERS,BTU-1F-01 Flow Volume,BTU-1F-01_FLOW,analog,Monitor,m3/h,0-15,,,,/Server 1/1F/BTU/BTU-1F-01/FLOW
+PT_0245,1F,BTU-1F-01,BTU_METERS,BTU-1F-01 Delta T,BTU-1F-01_DT,analog,Monitor,°C,0-15,,,,/Server 1/1F/BTU/BTU-1F-01/DT
+PT_0246,1F,BTU-1F-01,BTU_METERS,BTU-1F-01 Total Energy,BTU-1F-01_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/1F/BTU/BTU-1F-01/KWH
+PT_0247,1F,BTU-1F-02,BTU_METERS,BTU-1F-02 Cooling Capacity,BTU-1F-02_TR,analog,Monitor,TR,0-40,,,,/Server 1/1F/BTU/BTU-1F-02/TR
+PT_0248,1F,BTU-1F-02,BTU_METERS,BTU-1F-02 Flow Volume,BTU-1F-02_FLOW,analog,Monitor,m3/h,0-15,,,,/Server 1/1F/BTU/BTU-1F-02/FLOW
+PT_0249,1F,BTU-1F-02,BTU_METERS,BTU-1F-02 Delta T,BTU-1F-02_DT,analog,Monitor,°C,0-15,,,,/Server 1/1F/BTU/BTU-1F-02/DT
+PT_0250,1F,BTU-1F-02,BTU_METERS,BTU-1F-02 Total Energy,BTU-1F-02_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/1F/BTU/BTU-1F-02/KWH
+PT_0251,1F,DPM-1F-EMCC-A,POWER_METERS,DPM-1F-EMCC-A Active Power,DPM-1F-EMCC-A_KW,analog,Monitor,KWh,0-150,,,,/Server 1/1F/Power/DPM-1F-EMCC-A/KW
+PT_0252,1F,DPM-1F-EMCC-A,POWER_METERS,DPM-1F-EMCC-A Active Energy,DPM-1F-EMCC-A_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/1F/Power/DPM-1F-EMCC-A/KWH
+PT_0253,1F,DPM-1F-EMCC-A,POWER_METERS,DPM-1F-EMCC-A Voltage Avg,DPM-1F-EMCC-A_V,analog,Monitor,V,0-450,,,,/Server 1/1F/Power/DPM-1F-EMCC-A/V
+PT_0254,1F,DPM-1F-EMCC-A,POWER_METERS,DPM-1F-EMCC-A Current Avg,DPM-1F-EMCC-A_A,analog,Monitor,A,0-250,,,,/Server 1/1F/Power/DPM-1F-EMCC-A/A
+PT_0255,1F,DPM-1F-EMCC-B,POWER_METERS,DPM-1F-EMCC-B Active Power,DPM-1F-EMCC-B_KW,analog,Monitor,KWh,0-150,,,,/Server 1/1F/Power/DPM-1F-EMCC-B/KW
+PT_0256,1F,DPM-1F-EMCC-B,POWER_METERS,DPM-1F-EMCC-B Active Energy,DPM-1F-EMCC-B_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/1F/Power/DPM-1F-EMCC-B/KWH
+PT_0257,1F,DPM-1F-EMCC-B,POWER_METERS,DPM-1F-EMCC-B Voltage Avg,DPM-1F-EMCC-B_V,analog,Monitor,V,0-450,,,,/Server 1/1F/Power/DPM-1F-EMCC-B/V
+PT_0258,1F,DPM-1F-EMCC-B,POWER_METERS,DPM-1F-EMCC-B Current Avg,DPM-1F-EMCC-B_A,analog,Monitor,A,0-250,,,,/Server 1/1F/Power/DPM-1F-EMCC-B/A
+PT_0259,1F,1F_SMD-01,DAMPERS,1F SMD-01 Status,1F_SMD-01_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/1F/Dampers/SMD-01_STS
+PT_0260,1F,1F_SMD-02,DAMPERS,1F SMD-02 Status,1F_SMD-02_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/1F/Dampers/SMD-02_STS
+PT_0261,1F,1F_VMD-01,DAMPERS,1F VMD-01 Command,1F_VMD-01_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/1F/Dampers/VMD-01_SS
+PT_0262,1F,1F_VMD-01,DAMPERS,1F VMD-01 Status,1F_VMD-01_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/1F/Dampers/VMD-01_STS
+PT_0263,1F,1F_VMD-02,DAMPERS,1F VMD-02 Command,1F_VMD-02_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/1F/Dampers/VMD-02_SS
+PT_0264,1F,1F_VMD-02,DAMPERS,1F VMD-02 Status,1F_VMD-02_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/1F/Dampers/VMD-02_STS
+PT_0265,1F,1F_VMD-03,DAMPERS,1F VMD-03 Command,1F_VMD-03_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/1F/Dampers/VMD-03_SS
+PT_0266,1F,1F_VMD-03,DAMPERS,1F VMD-03 Status,1F_VMD-03_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/1F/Dampers/VMD-03_STS
+PT_0267,1F,1F_VMD-04,DAMPERS,1F VMD-04 Command,1F_VMD-04_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/1F/Dampers/VMD-04_SS
+PT_0268,1F,1F_VMD-04,DAMPERS,1F VMD-04 Status,1F_VMD-04_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/1F/Dampers/VMD-04_STS
+PT_0269,1F,1F_VMD-05,DAMPERS,1F VMD-05 Command,1F_VMD-05_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/1F/Dampers/VMD-05_SS
+PT_0270,1F,1F_VMD-05,DAMPERS,1F VMD-05 Status,1F_VMD-05_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/1F/Dampers/VMD-05_STS
+PT_0271,1F,1F_VMD-06,DAMPERS,1F VMD-06 Command,1F_VMD-06_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/1F/Dampers/VMD-06_SS
+PT_0272,1F,1F_VMD-06,DAMPERS,1F VMD-06 Status,1F_VMD-06_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/1F/Dampers/VMD-06_STS
+PT_0273,1F,1F_FAP,LIFE_SAFETY,1F Fire Alarm Panel,1F_FAP_STS,digital,Monitor,,0-1,Alarm,Normal,,/Server 1/1F/FAP/STS
+PT_0274,2F,BTU-2F-01,BTU_METERS,BTU-2F-01 Cooling Capacity,BTU-2F-01_TR,analog,Monitor,TR,0-40,,,,/Server 1/2F/BTU/BTU-2F-01/TR
+PT_0275,2F,BTU-2F-01,BTU_METERS,BTU-2F-01 Flow Volume,BTU-2F-01_FLOW,analog,Monitor,m3/h,0-15,,,,/Server 1/2F/BTU/BTU-2F-01/FLOW
+PT_0276,2F,BTU-2F-01,BTU_METERS,BTU-2F-01 Delta T,BTU-2F-01_DT,analog,Monitor,°C,0-15,,,,/Server 1/2F/BTU/BTU-2F-01/DT
+PT_0277,2F,BTU-2F-01,BTU_METERS,BTU-2F-01 Total Energy,BTU-2F-01_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/2F/BTU/BTU-2F-01/KWH
+PT_0278,2F,BTU-2F-02,BTU_METERS,BTU-2F-02 Cooling Capacity,BTU-2F-02_TR,analog,Monitor,TR,0-40,,,,/Server 1/2F/BTU/BTU-2F-02/TR
+PT_0279,2F,BTU-2F-02,BTU_METERS,BTU-2F-02 Flow Volume,BTU-2F-02_FLOW,analog,Monitor,m3/h,0-15,,,,/Server 1/2F/BTU/BTU-2F-02/FLOW
+PT_0280,2F,BTU-2F-02,BTU_METERS,BTU-2F-02 Delta T,BTU-2F-02_DT,analog,Monitor,°C,0-15,,,,/Server 1/2F/BTU/BTU-2F-02/DT
+PT_0281,2F,BTU-2F-02,BTU_METERS,BTU-2F-02 Total Energy,BTU-2F-02_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/2F/BTU/BTU-2F-02/KWH
+PT_0282,2F,DPM-2F-EMCC-A,POWER_METERS,DPM-2F-EMCC-A Active Power,DPM-2F-EMCC-A_KW,analog,Monitor,KWh,0-150,,,,/Server 1/2F/Power/DPM-2F-EMCC-A/KW
+PT_0283,2F,DPM-2F-EMCC-A,POWER_METERS,DPM-2F-EMCC-A Active Energy,DPM-2F-EMCC-A_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/2F/Power/DPM-2F-EMCC-A/KWH
+PT_0284,2F,DPM-2F-EMCC-A,POWER_METERS,DPM-2F-EMCC-A Voltage Avg,DPM-2F-EMCC-A_V,analog,Monitor,V,0-450,,,,/Server 1/2F/Power/DPM-2F-EMCC-A/V
+PT_0285,2F,DPM-2F-EMCC-A,POWER_METERS,DPM-2F-EMCC-A Current Avg,DPM-2F-EMCC-A_A,analog,Monitor,A,0-250,,,,/Server 1/2F/Power/DPM-2F-EMCC-A/A
+PT_0286,2F,DPM-2F-EMCC-B,POWER_METERS,DPM-2F-EMCC-B Active Power,DPM-2F-EMCC-B_KW,analog,Monitor,KWh,0-150,,,,/Server 1/2F/Power/DPM-2F-EMCC-B/KW
+PT_0287,2F,DPM-2F-EMCC-B,POWER_METERS,DPM-2F-EMCC-B Active Energy,DPM-2F-EMCC-B_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/2F/Power/DPM-2F-EMCC-B/KWH
+PT_0288,2F,DPM-2F-EMCC-B,POWER_METERS,DPM-2F-EMCC-B Voltage Avg,DPM-2F-EMCC-B_V,analog,Monitor,V,0-450,,,,/Server 1/2F/Power/DPM-2F-EMCC-B/V
+PT_0289,2F,DPM-2F-EMCC-B,POWER_METERS,DPM-2F-EMCC-B Current Avg,DPM-2F-EMCC-B_A,analog,Monitor,A,0-250,,,,/Server 1/2F/Power/DPM-2F-EMCC-B/A
+PT_0290,2F,2F_SMD-01,DAMPERS,2F SMD-01 Status,2F_SMD-01_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/2F/Dampers/SMD-01_STS
+PT_0291,2F,2F_SMD-02,DAMPERS,2F SMD-02 Status,2F_SMD-02_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/2F/Dampers/SMD-02_STS
+PT_0292,2F,2F_VMD-01,DAMPERS,2F VMD-01 Command,2F_VMD-01_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/2F/Dampers/VMD-01_SS
+PT_0293,2F,2F_VMD-01,DAMPERS,2F VMD-01 Status,2F_VMD-01_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/2F/Dampers/VMD-01_STS
+PT_0294,2F,2F_VMD-02,DAMPERS,2F VMD-02 Command,2F_VMD-02_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/2F/Dampers/VMD-02_SS
+PT_0295,2F,2F_VMD-02,DAMPERS,2F VMD-02 Status,2F_VMD-02_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/2F/Dampers/VMD-02_STS
+PT_0296,2F,2F_VMD-03,DAMPERS,2F VMD-03 Command,2F_VMD-03_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/2F/Dampers/VMD-03_SS
+PT_0297,2F,2F_VMD-03,DAMPERS,2F VMD-03 Status,2F_VMD-03_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/2F/Dampers/VMD-03_STS
+PT_0298,2F,2F_VMD-04,DAMPERS,2F VMD-04 Command,2F_VMD-04_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/2F/Dampers/VMD-04_SS
+PT_0299,2F,2F_VMD-04,DAMPERS,2F VMD-04 Status,2F_VMD-04_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/2F/Dampers/VMD-04_STS
+PT_0300,2F,2F_VMD-05,DAMPERS,2F VMD-05 Command,2F_VMD-05_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/2F/Dampers/VMD-05_SS
+PT_0301,2F,2F_VMD-05,DAMPERS,2F VMD-05 Status,2F_VMD-05_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/2F/Dampers/VMD-05_STS
+PT_0302,2F,2F_VMD-06,DAMPERS,2F VMD-06 Command,2F_VMD-06_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/2F/Dampers/VMD-06_SS
+PT_0303,2F,2F_VMD-06,DAMPERS,2F VMD-06 Status,2F_VMD-06_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/2F/Dampers/VMD-06_STS
+PT_0304,2F,2F_FAP,LIFE_SAFETY,2F Fire Alarm Panel,2F_FAP_STS,digital,Monitor,,0-1,Alarm,Normal,,/Server 1/2F/FAP/STS
+PT_0305,3F,BTU-3F-01,BTU_METERS,BTU-3F-01 Cooling Capacity,BTU-3F-01_TR,analog,Monitor,TR,0-40,,,,/Server 1/3F/BTU/BTU-3F-01/TR
+PT_0306,3F,BTU-3F-01,BTU_METERS,BTU-3F-01 Flow Volume,BTU-3F-01_FLOW,analog,Monitor,m3/h,0-15,,,,/Server 1/3F/BTU/BTU-3F-01/FLOW
+PT_0307,3F,BTU-3F-01,BTU_METERS,BTU-3F-01 Delta T,BTU-3F-01_DT,analog,Monitor,°C,0-15,,,,/Server 1/3F/BTU/BTU-3F-01/DT
+PT_0308,3F,BTU-3F-01,BTU_METERS,BTU-3F-01 Total Energy,BTU-3F-01_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/3F/BTU/BTU-3F-01/KWH
+PT_0309,3F,BTU-3F-02,BTU_METERS,BTU-3F-02 Cooling Capacity,BTU-3F-02_TR,analog,Monitor,TR,0-40,,,,/Server 1/3F/BTU/BTU-3F-02/TR
+PT_0310,3F,BTU-3F-02,BTU_METERS,BTU-3F-02 Flow Volume,BTU-3F-02_FLOW,analog,Monitor,m3/h,0-15,,,,/Server 1/3F/BTU/BTU-3F-02/FLOW
+PT_0311,3F,BTU-3F-02,BTU_METERS,BTU-3F-02 Delta T,BTU-3F-02_DT,analog,Monitor,°C,0-15,,,,/Server 1/3F/BTU/BTU-3F-02/DT
+PT_0312,3F,BTU-3F-02,BTU_METERS,BTU-3F-02 Total Energy,BTU-3F-02_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/3F/BTU/BTU-3F-02/KWH
+PT_0313,3F,DPM-3F-EMCC-A,POWER_METERS,DPM-3F-EMCC-A Active Power,DPM-3F-EMCC-A_KW,analog,Monitor,KWh,0-150,,,,/Server 1/3F/Power/DPM-3F-EMCC-A/KW
+PT_0314,3F,DPM-3F-EMCC-A,POWER_METERS,DPM-3F-EMCC-A Active Energy,DPM-3F-EMCC-A_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/3F/Power/DPM-3F-EMCC-A/KWH
+PT_0315,3F,DPM-3F-EMCC-A,POWER_METERS,DPM-3F-EMCC-A Voltage Avg,DPM-3F-EMCC-A_V,analog,Monitor,V,0-450,,,,/Server 1/3F/Power/DPM-3F-EMCC-A/V
+PT_0316,3F,DPM-3F-EMCC-A,POWER_METERS,DPM-3F-EMCC-A Current Avg,DPM-3F-EMCC-A_A,analog,Monitor,A,0-250,,,,/Server 1/3F/Power/DPM-3F-EMCC-A/A
+PT_0317,3F,DPM-3F-EMCC-B,POWER_METERS,DPM-3F-EMCC-B Active Power,DPM-3F-EMCC-B_KW,analog,Monitor,KWh,0-150,,,,/Server 1/3F/Power/DPM-3F-EMCC-B/KW
+PT_0318,3F,DPM-3F-EMCC-B,POWER_METERS,DPM-3F-EMCC-B Active Energy,DPM-3F-EMCC-B_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/3F/Power/DPM-3F-EMCC-B/KWH
+PT_0319,3F,DPM-3F-EMCC-B,POWER_METERS,DPM-3F-EMCC-B Voltage Avg,DPM-3F-EMCC-B_V,analog,Monitor,V,0-450,,,,/Server 1/3F/Power/DPM-3F-EMCC-B/V
+PT_0320,3F,DPM-3F-EMCC-B,POWER_METERS,DPM-3F-EMCC-B Current Avg,DPM-3F-EMCC-B_A,analog,Monitor,A,0-250,,,,/Server 1/3F/Power/DPM-3F-EMCC-B/A
+PT_0321,3F,3F_SMD-01,DAMPERS,3F SMD-01 Status,3F_SMD-01_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/3F/Dampers/SMD-01_STS
+PT_0322,3F,3F_SMD-02,DAMPERS,3F SMD-02 Status,3F_SMD-02_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/3F/Dampers/SMD-02_STS
+PT_0323,3F,3F_VMD-01,DAMPERS,3F VMD-01 Command,3F_VMD-01_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/3F/Dampers/VMD-01_SS
+PT_0324,3F,3F_VMD-01,DAMPERS,3F VMD-01 Status,3F_VMD-01_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/3F/Dampers/VMD-01_STS
+PT_0325,3F,3F_VMD-02,DAMPERS,3F VMD-02 Command,3F_VMD-02_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/3F/Dampers/VMD-02_SS
+PT_0326,3F,3F_VMD-02,DAMPERS,3F VMD-02 Status,3F_VMD-02_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/3F/Dampers/VMD-02_STS
+PT_0327,3F,3F_VMD-03,DAMPERS,3F VMD-03 Command,3F_VMD-03_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/3F/Dampers/VMD-03_SS
+PT_0328,3F,3F_VMD-03,DAMPERS,3F VMD-03 Status,3F_VMD-03_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/3F/Dampers/VMD-03_STS
+PT_0329,3F,3F_VMD-04,DAMPERS,3F VMD-04 Command,3F_VMD-04_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/3F/Dampers/VMD-04_SS
+PT_0330,3F,3F_VMD-04,DAMPERS,3F VMD-04 Status,3F_VMD-04_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/3F/Dampers/VMD-04_STS
+PT_0331,3F,3F_VMD-05,DAMPERS,3F VMD-05 Command,3F_VMD-05_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/3F/Dampers/VMD-05_SS
+PT_0332,3F,3F_VMD-05,DAMPERS,3F VMD-05 Status,3F_VMD-05_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/3F/Dampers/VMD-05_STS
+PT_0333,3F,3F_VMD-06,DAMPERS,3F VMD-06 Command,3F_VMD-06_SS,digital,Controllable,,0-1,Open,Close,,/Server 1/3F/Dampers/VMD-06_SS
+PT_0334,3F,3F_VMD-06,DAMPERS,3F VMD-06 Status,3F_VMD-06_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/3F/Dampers/VMD-06_STS
+PT_0335,3F,3F_FAP,LIFE_SAFETY,3F Fire Alarm Panel,3F_FAP_STS,digital,Monitor,,0-1,Alarm,Normal,,/Server 1/3F/FAP/STS
+PT_0336,RF,FCU-RF-01,FCU,FCU-RF-01 Run Command,FCU-RF-01_SS,digital,Controllable,,0-1,Run,Stop,,/Server 1/RF/FCU/FCU-RF-01/SS
+PT_0337,RF,FCU-RF-01,FCU,FCU-RF-01 Run Status,FCU-RF-01_STS,digital,Monitor,,0-1,Running,Stopped,,/Server 1/RF/FCU/FCU-RF-01/STS
+PT_0338,RF,FCU-RF-01,FCU,FCU-RF-01 Space Temp,FCU-RF-01_TEMP,analog,Monitor,°C,15-35,,,,/Server 1/RF/FCU/FCU-RF-01/TEMP
+PT_0339,RF,FCU-RF-01,FCU,FCU-RF-01 Cooling Setpoint,FCU-RF-01_SP,analog,Controllable,°C,18-28,,,,/Server 1/RF/FCU/FCU-RF-01/SP
+PT_0340,RF,FCU-RF-01,FCU,FCU-RF-01 Valve Signal,FCU-RF-01_VALVE,analog,Monitor,V,0-10,,,,/Server 1/RF/FCU/FCU-RF-01/VALVE
+PT_0341,RF,FCU-RF-02,FCU,FCU-RF-02 Run Command,FCU-RF-02_SS,digital,Controllable,,0-1,Run,Stop,,/Server 1/RF/FCU/FCU-RF-02/SS
+PT_0342,RF,FCU-RF-02,FCU,FCU-RF-02 Run Status,FCU-RF-02_STS,digital,Monitor,,0-1,Running,Stopped,,/Server 1/RF/FCU/FCU-RF-02/STS
+PT_0343,RF,FCU-RF-02,FCU,FCU-RF-02 Space Temp,FCU-RF-02_TEMP,analog,Monitor,°C,15-35,,,,/Server 1/RF/FCU/FCU-RF-02/TEMP
+PT_0344,RF,FCU-RF-02,FCU,FCU-RF-02 Cooling Setpoint,FCU-RF-02_SP,analog,Controllable,°C,18-28,,,,/Server 1/RF/FCU/FCU-RF-02/SP
+PT_0345,RF,FCU-RF-02,FCU,FCU-RF-02 Valve Signal,FCU-RF-02_VALVE,analog,Monitor,V,0-10,,,,/Server 1/RF/FCU/FCU-RF-02/VALVE
+PT_0346,RF,FCU-RF-03,FCU,FCU-RF-03 Run Command,FCU-RF-03_SS,digital,Controllable,,0-1,Run,Stop,,/Server 1/RF/FCU/FCU-RF-03/SS
+PT_0347,RF,FCU-RF-03,FCU,FCU-RF-03 Run Status,FCU-RF-03_STS,digital,Monitor,,0-1,Running,Stopped,,/Server 1/RF/FCU/FCU-RF-03/STS
+PT_0348,RF,FCU-RF-03,FCU,FCU-RF-03 Space Temp,FCU-RF-03_TEMP,analog,Monitor,°C,15-35,,,,/Server 1/RF/FCU/FCU-RF-03/TEMP
+PT_0349,RF,FCU-RF-03,FCU,FCU-RF-03 Cooling Setpoint,FCU-RF-03_SP,analog,Controllable,°C,18-28,,,,/Server 1/RF/FCU/FCU-RF-03/SP
+PT_0350,RF,FCU-RF-03,FCU,FCU-RF-03 Valve Signal,FCU-RF-03_VALVE,analog,Monitor,V,0-10,,,,/Server 1/RF/FCU/FCU-RF-03/VALVE
+PT_0351,RF,ELEV-MR,ELEVATORS,Elevator Machine Room State sts1,RF_ELEV_STS1,analog,Monitor,code,0-255,,,,/Server 1/RF/Elev/sts1
+PT_0352,RF,ELEV-MR,ELEVATORS,Elevator Machine Room State sts2,RF_ELEV_STS2,analog,Monitor,code,0-255,,,,/Server 1/RF/Elev/sts2
+PT_0353,RF,ELEV-MR,ELEVATORS,Elevator Machine Room State sts3,RF_ELEV_STS3,analog,Monitor,code,0-255,,,,/Server 1/RF/Elev/sts3
+PT_0354,RF,ELEV-MR,ELEVATORS,Elevator Machine Room State sts4,RF_ELEV_STS4,analog,Monitor,code,0-255,,,,/Server 1/RF/Elev/sts4
+PT_0355,RF,ELEV-MR,ELEVATORS,Elevator Machine Room State sts5,RF_ELEV_STS5,analog,Monitor,code,0-255,,,,/Server 1/RF/Elev/sts5
+PT_0356,RF,ELEV-MR,ELEVATORS,Elevator Machine Room State sts6,RF_ELEV_STS6,analog,Monitor,code,0-255,,,,/Server 1/RF/Elev/sts6
+PT_0357,RF,PF-RF-01,PRESS_FAN,Pressurization Fan Run Status,RF_PF01_STS,digital,Monitor,,0-1,Running,Stopped,,/Server 1/RF/Fans/PF01_STS
+PT_0358,RF,PF-RF-01,PRESS_FAN,Pressurization Fan Trip,RF_PF01_TRIP,digital,Monitor,,0-1,Trip Alarm,Normal,,/Server 1/RF/Fans/PF01_TRIP
+PT_0359,RF,RF_SMD_01,DAMPERS,Roof Smoke Damper 01 Status,RF_SMD01_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/RF/Dampers/SMD01_STS
+PT_0360,RF,RF_SMD_02,DAMPERS,Roof Smoke Damper 02 Status,RF_SMD02_STS,digital,Monitor,,0-1,Open,Closed,,/Server 1/RF/Dampers/SMD02_STS
+PT_0361,RF,RF_FAP,LIFE_SAFETY,Roof Fire Alarm Panel,RF_FAP_ALM,digital,Monitor,,0-1,Alarm,Normal,,/Server 1/RF/FAP/ALM
+PT_0362,UR,FAHU-UR,FAHU,FAHU Supply Fan Run/Stop,UR_FAHU_SS,digital,Controllable,,0-1,Run,Stop,,/Server 1/UR/FAHU/SS
+PT_0363,UR,FAHU-UR,FAHU,FAHU Supply Fan Status,UR_FAHU_STS,digital,Monitor,,0-1,Running,Stopped,,/Server 1/UR/FAHU/STS
+PT_0364,UR,FAHU-UR,FAHU,FAHU Supply Fan Trip,UR_FAHU_TRIP,digital,Monitor,,0-1,Trip Alarm,Normal,,/Server 1/UR/FAHU/TRIP
+PT_0365,UR,FAHU-UR,FAHU,FAHU Airflow DPS,UR_FAHU_DPS,digital,Monitor,,0-1,Flow OK,No Flow,,/Server 1/UR/FAHU/DPS
+PT_0366,UR,FAHU-UR,FAHU,FAHU Static Pressure DPT,UR_FAHU_DPT,analog,Monitor,Pa,0-1000,,,,/Server 1/UR/FAHU/DPT
+PT_0367,UR,FAHU-UR,FAHU,FAHU VSD Speed Ref,UR_FAHU_SPEED,analog,Controllable,%,0-100,,,,/Server 1/UR/FAHU/SPEED
+PT_0368,UR,FAHU-UR,FAHU,FAHU Supply Air Temp,UR_FAHU_SAT,analog,Monitor,°C,10-35,,,,/Server 1/UR/FAHU/SAT
+PT_0369,UR,FAHU-UR,FAHU,FAHU Supply Air Humidity,UR_FAHU_SAH,analog,Monitor,%RH,0-100,,,,/Server 1/UR/FAHU/SAH
+PT_0370,UR,FAHU-UR,FAHU,FAHU Outdoor Ambient Temp,UR_FAHU_OAT,analog,Monitor,°C,10-50,,,,/Server 1/UR/FAHU/OAT
+PT_0371,UR,FAHU-UR,FAHU,FAHU Outdoor Ambient Humidity,UR_FAHU_OAH,analog,Monitor,%RH,0-100,,,,/Server 1/UR/FAHU/OAH
+PT_0372,UR,FAHU-UR,FAHU,FAHU Filter Pre DPS,UR_FAHU_FLT_PRE,digital,Monitor,,0-1,Filter Dirty,Clean,,/Server 1/UR/FAHU/FLT_PRE
+PT_0373,UR,FAHU-UR,FAHU,FAHU Filter Bag DPS,UR_FAHU_FLT_BAG,digital,Monitor,,0-1,Filter Dirty,Clean,,/Server 1/UR/FAHU/FLT_BAG
+PT_0374,UR,FAHU-UR,FAHU,FAHU Motorised Damper Command,UR_FAHU_DMP_CMD,digital,Controllable,,0-1,Open,Close,,/Server 1/UR/FAHU/DMP_CMD
+PT_0375,UR,FAHU-UR,FAHU,FAHU Smoke Detector Interlock,UR_FAHU_SMK,digital,Monitor,,0-1,Smoke Alarm,Normal,,/Server 1/UR/FAHU/SMK
+PT_0376,UR,PF-UR-02,SAFETY_FANS,PF-UR-02 Run Command,PF-UR-02_SS,digital,Controllable,,0-1,Start,Stop,,/Server 1/UR/Fans/PF-UR-02/SS
+PT_0377,UR,PF-UR-02,SAFETY_FANS,PF-UR-02 Run Status,PF-UR-02_STS,digital,Monitor,,0-1,Running,Stopped,,/Server 1/UR/Fans/PF-UR-02/STS
+PT_0378,UR,PF-UR-02,SAFETY_FANS,PF-UR-02 Trip Alarm,PF-UR-02_TRIP,digital,Monitor,,0-1,Trip Alarm,Normal,,/Server 1/UR/Fans/PF-UR-02/TRIP
+PT_0379,UR,PF-UR-02,SAFETY_FANS,PF-UR-02 Air Flow Status,PF-UR-02_FLOW,digital,Monitor,,0-1,Flow OK,No Flow,,/Server 1/UR/Fans/PF-UR-02/FLOW
+PT_0380,UR,PF-UR-03,SAFETY_FANS,PF-UR-03 Run Command,PF-UR-03_SS,digital,Controllable,,0-1,Start,Stop,,/Server 1/UR/Fans/PF-UR-03/SS
+PT_0381,UR,PF-UR-03,SAFETY_FANS,PF-UR-03 Run Status,PF-UR-03_STS,digital,Monitor,,0-1,Running,Stopped,,/Server 1/UR/Fans/PF-UR-03/STS
+PT_0382,UR,PF-UR-03,SAFETY_FANS,PF-UR-03 Trip Alarm,PF-UR-03_TRIP,digital,Monitor,,0-1,Trip Alarm,Normal,,/Server 1/UR/Fans/PF-UR-03/TRIP
+PT_0383,UR,PF-UR-03,SAFETY_FANS,PF-UR-03 Air Flow Status,PF-UR-03_FLOW,digital,Monitor,,0-1,Flow OK,No Flow,,/Server 1/UR/Fans/PF-UR-03/FLOW
+PT_0384,UR,SF-UR-01,SAFETY_FANS,SF-UR-01 Run Command,SF-UR-01_SS,digital,Controllable,,0-1,Start,Stop,,/Server 1/UR/Fans/SF-UR-01/SS
+PT_0385,UR,SF-UR-01,SAFETY_FANS,SF-UR-01 Run Status,SF-UR-01_STS,digital,Monitor,,0-1,Running,Stopped,,/Server 1/UR/Fans/SF-UR-01/STS
+PT_0386,UR,SF-UR-01,SAFETY_FANS,SF-UR-01 Trip Alarm,SF-UR-01_TRIP,digital,Monitor,,0-1,Trip Alarm,Normal,,/Server 1/UR/Fans/SF-UR-01/TRIP
+PT_0387,UR,SF-UR-01,SAFETY_FANS,SF-UR-01 Air Flow Status,SF-UR-01_FLOW,digital,Monitor,,0-1,Flow OK,No Flow,,/Server 1/UR/Fans/SF-UR-01/FLOW
+PT_0388,UR,SF-UR-02,SAFETY_FANS,SF-UR-02 Run Command,SF-UR-02_SS,digital,Controllable,,0-1,Start,Stop,,/Server 1/UR/Fans/SF-UR-02/SS
+PT_0389,UR,SF-UR-02,SAFETY_FANS,SF-UR-02 Run Status,SF-UR-02_STS,digital,Monitor,,0-1,Running,Stopped,,/Server 1/UR/Fans/SF-UR-02/STS
+PT_0390,UR,SF-UR-02,SAFETY_FANS,SF-UR-02 Trip Alarm,SF-UR-02_TRIP,digital,Monitor,,0-1,Trip Alarm,Normal,,/Server 1/UR/Fans/SF-UR-02/TRIP
+PT_0391,UR,SF-UR-02,SAFETY_FANS,SF-UR-02 Air Flow Status,SF-UR-02_FLOW,digital,Monitor,,0-1,Flow OK,No Flow,,/Server 1/UR/Fans/SF-UR-02/FLOW
+PT_0392,UR,STAIR_PRESS,SAFETY_FANS,Stairwell Differential Pressure DPT,UR_STAIR_DP,analog,Monitor,Pa,0-100,,,,/Server 1/UR/Fans/STAIR_DP
+PT_0393,UR,DPM-MCCO1-UR,POWER_METERS,DPM-MCCO1-UR Active Power Total,DPM-MCCO1-UR_KW,analog,Monitor,KWh,0-250,,,,/Server 1/UR/Power/DPM-MCCO1-UR/KW
+PT_0394,UR,DPM-MCCO1-UR,POWER_METERS,DPM-MCCO1-UR Total Energy Active,DPM-MCCO1-UR_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/UR/Power/DPM-MCCO1-UR/KWH
+PT_0395,UR,DPM-MCCO1-UR,POWER_METERS,DPM-MCCO1-UR Voltage 3Ph Avg,DPM-MCCO1-UR_V,analog,Monitor,V,0-450,,,,/Server 1/UR/Power/DPM-MCCO1-UR/V
+PT_0396,UR,DPM-MCCO1-UR,POWER_METERS,DPM-MCCO1-UR Current 3Ph Avg,DPM-MCCO1-UR_A,analog,Monitor,A,0-350,,,,/Server 1/UR/Power/DPM-MCCO1-UR/A
+PT_0397,UR,DPM-MCCO1-UR,POWER_METERS,DPM-MCCO1-UR Power Factor Avg,DPM-MCCO1-UR_PF,analog,Monitor,,-1..1,,,,/Server 1/UR/Power/DPM-MCCO1-UR/PF
+PT_0398,UR,EMCCO1-UR,POWER_METERS,EMCCO1-UR Active Power Total,EMCCO1-UR_KW,analog,Monitor,KWh,0-250,,,,/Server 1/UR/Power/EMCCO1-UR/KW
+PT_0399,UR,EMCCO1-UR,POWER_METERS,EMCCO1-UR Total Energy Active,EMCCO1-UR_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/UR/Power/EMCCO1-UR/KWH
+PT_0400,UR,EMCCO1-UR,POWER_METERS,EMCCO1-UR Voltage 3Ph Avg,EMCCO1-UR_V,analog,Monitor,V,0-450,,,,/Server 1/UR/Power/EMCCO1-UR/V
+PT_0401,UR,EMCCO1-UR,POWER_METERS,EMCCO1-UR Current 3Ph Avg,EMCCO1-UR_A,analog,Monitor,A,0-350,,,,/Server 1/UR/Power/EMCCO1-UR/A
+PT_0402,UR,EMCCO1-UR,POWER_METERS,EMCCO1-UR Power Factor Avg,EMCCO1-UR_PF,analog,Monitor,,-1..1,,,,/Server 1/UR/Power/EMCCO1-UR/PF
+PT_0403,UR,EMCCO2-UR,POWER_METERS,EMCCO2-UR Active Power Total,EMCCO2-UR_KW,analog,Monitor,KWh,0-250,,,,/Server 1/UR/Power/EMCCO2-UR/KW
+PT_0404,UR,EMCCO2-UR,POWER_METERS,EMCCO2-UR Total Energy Active,EMCCO2-UR_KWH,analog,Monitor,kWh,0-9999999,,,,/Server 1/UR/Power/EMCCO2-UR/KWH
+PT_0405,UR,EMCCO2-UR,POWER_METERS,EMCCO2-UR Voltage 3Ph Avg,EMCCO2-UR_V,analog,Monitor,V,0-450,,,,/Server 1/UR/Power/EMCCO2-UR/V
+PT_0406,UR,EMCCO2-UR,POWER_METERS,EMCCO2-UR Current 3Ph Avg,EMCCO2-UR_A,analog,Monitor,A,0-350,,,,/Server 1/UR/Power/EMCCO2-UR/A
+PT_0407,UR,EMCCO2-UR,POWER_METERS,EMCCO2-UR Power Factor Avg,EMCCO2-UR_PF,analog,Monitor,,-1..1,,,,/Server 1/UR/Power/EMCCO2-UR/PF
+PT_0408,GF,SEN_GF_001,GENERAL_IO,Telemetry Sensor Channel 1,GF_SEN_1,analog,Monitor,raw,0-100,,,,/Server 1/GF/IO/SEN_GF_001
+PT_0409,1F,SEN_1F_002,GENERAL_IO,Telemetry Sensor Channel 2,1F_SEN_2,analog,Monitor,raw,0-100,,,,/Server 1/1F/IO/SEN_1F_002
+PT_0410,2F,SEN_2F_003,GENERAL_IO,Telemetry Sensor Channel 3,2F_SEN_3,analog,Monitor,raw,0-100,,,,/Server 1/2F/IO/SEN_2F_003
+PT_0411,3F,SEN_3F_004,GENERAL_IO,Telemetry Sensor Channel 4,3F_SEN_4,analog,Monitor,raw,0-100,,,,/Server 1/3F/IO/SEN_3F_004
+PT_0412,RF,SEN_RF_005,GENERAL_IO,Telemetry Sensor Channel 5,RF_SEN_5,analog,Monitor,raw,0-100,,,,/Server 1/RF/IO/SEN_RF_005
+PT_0413,UR,SEN_UR_006,GENERAL_IO,Telemetry Sensor Channel 6,UR_SEN_6,analog,Monitor,raw,0-100,,,,/Server 1/UR/IO/SEN_UR_006
+PT_0414,B1,SEN_B1_007,GENERAL_IO,Telemetry Sensor Channel 7,B1_SEN_7,analog,Monitor,raw,0-100,,,,/Server 1/B1/IO/SEN_B1_007
+PT_0415,GF,SEN_GF_008,GENERAL_IO,Telemetry Sensor Channel 8,GF_SEN_8,analog,Monitor,raw,0-100,,,,/Server 1/GF/IO/SEN_GF_008
+PT_0416,1F,SEN_1F_009,GENERAL_IO,Telemetry Sensor Channel 9,1F_SEN_9,analog,Monitor,raw,0-100,,,,/Server 1/1F/IO/SEN_1F_009
+PT_0417,2F,SEN_2F_010,GENERAL_IO,Telemetry Sensor Channel 10,2F_SEN_10,analog,Monitor,raw,0-100,,,,/Server 1/2F/IO/SEN_2F_010
+PT_0418,3F,SEN_3F_011,GENERAL_IO,Telemetry Sensor Channel 11,3F_SEN_11,analog,Monitor,raw,0-100,,,,/Server 1/3F/IO/SEN_3F_011
+PT_0419,RF,SEN_RF_012,GENERAL_IO,Telemetry Sensor Channel 12,RF_SEN_12,analog,Monitor,raw,0-100,,,,/Server 1/RF/IO/SEN_RF_012
+PT_0420,UR,SEN_UR_013,GENERAL_IO,Telemetry Sensor Channel 13,UR_SEN_13,analog,Monitor,raw,0-100,,,,/Server 1/UR/IO/SEN_UR_013
+PT_0421,B1,SEN_B1_014,GENERAL_IO,Telemetry Sensor Channel 14,B1_SEN_14,analog,Monitor,raw,0-100,,,,/Server 1/B1/IO/SEN_B1_014
+PT_0422,GF,SEN_GF_015,GENERAL_IO,Telemetry Sensor Channel 15,GF_SEN_15,analog,Monitor,raw,0-100,,,,/Server 1/GF/IO/SEN_GF_015
+PT_0423,1F,SEN_1F_016,GENERAL_IO,Telemetry Sensor Channel 16,1F_SEN_16,analog,Monitor,raw,0-100,,,,/Server 1/1F/IO/SEN_1F_016
+PT_0424,2F,SEN_2F_017,GENERAL_IO,Telemetry Sensor Channel 17,2F_SEN_17,analog,Monitor,raw,0-100,,,,/Server 1/2F/IO/SEN_2F_017
+PT_0425,3F,SEN_3F_018,GENERAL_IO,Telemetry Sensor Channel 18,3F_SEN_18,analog,Monitor,raw,0-100,,,,/Server 1/3F/IO/SEN_3F_018
+PT_0426,RF,SEN_RF_019,GENERAL_IO,Telemetry Sensor Channel 19,RF_SEN_19,analog,Monitor,raw,0-100,,,,/Server 1/RF/IO/SEN_RF_019
+PT_0427,UR,SEN_UR_020,GENERAL_IO,Telemetry Sensor Channel 20,UR_SEN_20,analog,Monitor,raw,0-100,,,,/Server 1/UR/IO/SEN_UR_020
+PT_0428,B1,SEN_B1_021,GENERAL_IO,Telemetry Sensor Channel 21,B1_SEN_21,analog,Monitor,raw,0-100,,,,/Server 1/B1/IO/SEN_B1_021
+PT_0429,GF,SEN_GF_022,GENERAL_IO,Telemetry Sensor Channel 22,GF_SEN_22,analog,Monitor,raw,0-100,,,,/Server 1/GF/IO/SEN_GF_022
+PT_0430,1F,SEN_1F_023,GENERAL_IO,Telemetry Sensor Channel 23,1F_SEN_23,analog,Monitor,raw,0-100,,,,/Server 1/1F/IO/SEN_1F_023
+PT_0431,2F,SEN_2F_024,GENERAL_IO,Telemetry Sensor Channel 24,2F_SEN_24,analog,Monitor,raw,0-100,,,,/Server 1/2F/IO/SEN_2F_024
+PT_0432,3F,SEN_3F_025,GENERAL_IO,Telemetry Sensor Channel 25,3F_SEN_25,analog,Monitor,raw,0-100,,,,/Server 1/3F/IO/SEN_3F_025
+PT_0433,RF,SEN_RF_026,GENERAL_IO,Telemetry Sensor Channel 26,RF_SEN_26,analog,Monitor,raw,0-100,,,,/Server 1/RF/IO/SEN_RF_026
+PT_0434,UR,SEN_UR_027,GENERAL_IO,Telemetry Sensor Channel 27,UR_SEN_27,analog,Monitor,raw,0-100,,,,/Server 1/UR/IO/SEN_UR_027
+PT_0435,B1,SEN_B1_028,GENERAL_IO,Telemetry Sensor Channel 28,B1_SEN_28,analog,Monitor,raw,0-100,,,,/Server 1/B1/IO/SEN_B1_028
+PT_0436,GF,SEN_GF_029,GENERAL_IO,Telemetry Sensor Channel 29,GF_SEN_29,analog,Monitor,raw,0-100,,,,/Server 1/GF/IO/SEN_GF_029
+PT_0437,1F,SEN_1F_030,GENERAL_IO,Telemetry Sensor Channel 30,1F_SEN_30,analog,Monitor,raw,0-100,,,,/Server 1/1F/IO/SEN_1F_030
+PT_0438,2F,SEN_2F_031,GENERAL_IO,Telemetry Sensor Channel 31,2F_SEN_31,analog,Monitor,raw,0-100,,,,/Server 1/2F/IO/SEN_2F_031
+PT_0439,3F,SEN_3F_032,GENERAL_IO,Telemetry Sensor Channel 32,3F_SEN_32,analog,Monitor,raw,0-100,,,,/Server 1/3F/IO/SEN_3F_032

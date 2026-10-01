@@ -1,0 +1,6 @@
+{
+  "name": "GOLDEN GATE — Smart Building Digital Twin",
+  "description": "Real-time 3D browser digital twin and BMS operational platform with spatial telemetry, floor isolation, and sub-metering telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
